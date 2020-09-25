@@ -3,15 +3,19 @@ body{
   font-family:"Avenir Next";
 }
 
-.header{
-  background-color: navy;
+header{
   font-size:20px;
-  color:white;
-  margin-bottom: 10px;
   height:100px;
+  background-color: navy;
 }
-.title{
-border-bottom: 1px solid;
+
+
+.title h1{
+  color:white;
+  border-bottom: 1px solid;
+  padding-top: 10px;
+  margin:20px;
+
 }
 
 .index{
@@ -20,21 +24,65 @@ border-bottom: 1px solid;
 
 
 .main{
-  font-size: 10px;
+  font-size: 20px;
   background-color: white;
-  height:300PX;
+  height:500PX;
   color:navy;
-  padding: 20px 10px;
+  padding: 0 10px;
+}
+.number a{
+  color:white;
+  line-height: 10px;
+  display:block;
+  padding:10px;
+  text-align:center;
+}
+.btn{
+  border-radius: 20px;
+  font-size: 10px;
+  margin:50px;
+  float: inherit;
+  opacity: 0.7;
+  height:50px;
+}
+.btn p{
+  background-color: rgb(38,0,152);
+  border-radius: 10px;
+  width:300px;
+  box-shadow: 0px 3px black;
+}
+.number :hover{
+  transition: all 0.1s;
+  border-radius: 10px;
+  background-image: url(https://gendai.ismcdn.jp/mwimgs/0/d/640m/img_0d810b92d6721811387368a00607e9d0249350.jpg)
+}
+.btn p:active{
+  box-shadow:none;
+  position:relative;
+  top:3px;
+
 }
 
-li{
-  list-style: none;
-  float:left;
-  padding: 50px;
+.contact-form{
+  padding-top:10px;
+  color:white;
+  margin-left:20px;
+  float: inherit;
 }
 
-
+.call input:hover{
+  cursor: pointer;
+}
 .footer{
-background-color: navy;
-height:200PX;
+  color:white;
+  background-color: navy;
+  height:300px;
+}
+
+.logo{
+  font-size:17px;
+  position:relative;
+  bottom:45px;
+  right:20px;
+  float:right;
 }
